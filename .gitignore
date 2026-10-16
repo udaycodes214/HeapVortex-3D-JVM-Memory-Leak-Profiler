@@ -1,0 +1,49 @@
+﻿# HeapVortex Root Git Ignore
+
+# VS Code
+.vscode/
+
+# Eclipse / STS
+.classpath
+.project
+.settings/
+.factorypath
+.springBeans
+.sts4-cache
+.apt_generated
+
+# Java / Maven
+**/target/
+**/.mvn/wrapper/maven-wrapper.jar
+
+# Node
+**/node_modules/
+**/dist/
+
+# Heap dumps
+**/heap-dumps/
+*.hprof
+
+# MAT reports
+**/mat-reports/
+
+# Eclipse MAT workspace
+workspace/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Environment files
+.env
+.env.*
+!.env.example
