@@ -1,0 +1,59 @@
+# ==========================================
+# HeapVortex Backend - Git Ignore
+# ==========================================
+
+# Maven
+target/
+.mvn/wrapper/maven-wrapper.jar
+
+# Maven generated files
+*.log
+
+# Spring Boot
+spring-boot.log
+spring-boot.pid
+
+# Heap dumps - DO NOT COMMIT
+heap-dumps/
+*.hprof
+
+# Eclipse MAT generated reports
+mat-report/
+mat-reports/
+*.zip
+
+# IDE - IntelliJ
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# IDE - Eclipse / STS
+.classpath
+.project
+.settings/
+.springBeans
+.sts4-cache
+.factorypath
+.apt_generated
+
+# VS Code
+.vscode/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
